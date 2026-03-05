@@ -29,7 +29,7 @@ publishing {
             pom {
                 name.set("ktor-annotations")
                 description.set("Annotations for Ktor controllers and OpenAPI")
-                url.set("https://github.com/hahadu/apidoc-generate")
+                url.set("https://github.com/hahadu/ktor-annotations")
                 licenses {
                     license {
                         name.set("The Apache License, Version 2.0")
@@ -45,8 +45,8 @@ publishing {
                 }
                 scm {
                     url.set("https://github.com/hahadu/ktor-apidoc-plugin")
-                    connection.set("scm:git:https://github.com/hahadu/apidoc-generate.git")
-                    developerConnection.set("scm:git:ssh://github.com/hahadu/apidoc-generate.git")
+                    connection.set("scm:git:https://github.com/hahadu/ktor-annotations.git")
+                    developerConnection.set("scm:git:ssh://github.com/hahadu/ktor-annotations.git")
                 }
             }
         }
@@ -87,7 +87,7 @@ jreleaser {
         license.set("Apache-2.0")
         authors.add("hahadu")
         links {
-            homepage.set("https://github.com/hahadu/apidoc-generate")
+            homepage.set("https://github.com/hahadu/ktor-annotations")
         }
     }
     deploy {
